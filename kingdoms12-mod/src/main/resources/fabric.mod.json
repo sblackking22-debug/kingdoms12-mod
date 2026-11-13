@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "kingdoms",
+	"version": "${version}",
+	"name": "Kingdoms",
+	"description": "Villager and pillager kingdoms with kings, queens, armies, overthrow and royal court life.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.kingdoms.KingdomsMod"],
+		"client": ["com.kingdoms.client.KingdomsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
